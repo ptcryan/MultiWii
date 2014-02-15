@@ -638,7 +638,7 @@
     //#define GPS_PROMINI_SERIAL   // Will Autosense if GPS is connected when ardu boots.
 
     // avoid using 115200 baud because with 16MHz arduino the 115200 baudrate have more than 2% speed error (57600 have 0.8% error)
-    #define GPS_BAUD   57600
+    #define GPS_BAUD   115200
 
    /* GPS protocol 
        NMEA  - Standard NMEA protocol GGA, GSA and RMC  sentences are needed
@@ -747,7 +747,7 @@
 
     /* uncomment this line if you plan to use a LCD or OLED for tweaking parameters
      * http://www.multiwii.com/wiki/index.php?title=Extra_features#Configuration_Menu */
-      //#define LCD_CONF
+      #define LCD_CONF
 
     /* to include setting the aux switches for AUX1 -> AUX4 via LCD */
       //#define LCD_CONF_AUX
